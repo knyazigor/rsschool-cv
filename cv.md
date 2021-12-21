@@ -10,6 +10,12 @@ City                  **Ufa, Russia**
 : **JS/Front-end** Rolling scopes school
 
 2005-2009 
-: **Engeneer** Ufa state aviation techincal university, FIR
+: **Engineer** Ufa state aviation techincal university, FIR
 
+## Experience
+2010-until now
+: **Manager** Sentyabr Ltd (ООО "Сентябрь"), metal trading company
 
+2005-2010 
+: **System administrator** Rucom Ltd (ООО "Руком"), it-outsource company
+: **System administrator** Ufimskiy hleb OJSC (ОАО "Уфимский хлеб"), bread production plant
