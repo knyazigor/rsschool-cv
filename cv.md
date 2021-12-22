@@ -32,9 +32,7 @@ Deployment and support of servers, networks, workstations. User technical suppor
 - Docker
 
 ## Code example
-
 Kata: [Pyramid Slide Down](https://www.codewars.com/kata/551f23362ff852e2ab000037)
-
 Solution: 
 
 function longestSlideDown (pyramid) {
