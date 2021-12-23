@@ -27,12 +27,14 @@ a:hover {
 .name {
     padding: 5px 15px;
     margin: 15px 0 15px;
+    
 }
 
 .position {
     border-bottom: solid 0.1rem rgb(63, 63, 63);
     padding: 5px 15px;
     margin: 0;
+    
 }
 
 .contact {
@@ -47,4 +49,10 @@ a:hover {
 .social {
     padding: 5px 15px;
     font-size: 2em;
+}
+
+.portrait {
+    width: 300px;
+    margin: 15px;
+    border-radius: 20px;
 }
