@@ -4,6 +4,14 @@
     font-family: 'Roboto', 'Verdana', sans-serif;
 }
 
+main {
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -24,18 +32,27 @@ a:hover {
     color:rgb(238, 238, 238)
 }
 
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 0.1rem rgb(63, 63, 63);
+    padding: 5px 15px 0px;
+    margin: 0;
+}
+
 .name {
     padding: 5px 15px;
-    margin: 15px 0 15px;
+    margin: 15px 0px 0px;
     
 }
 
 .position {
-    border-bottom: solid 0.1rem rgb(63, 63, 63);
-    padding: 5px 15px;
-    margin: 0;
-    
+    font-size: 1.5em;
 }
+
 .contacts {
     padding-left: 15px;
 }
@@ -49,9 +66,8 @@ a:hover {
     padding-right: 10px;
 }
 
-.social {
-    padding: 5px 15px;
-    font-size: 2em;
+.social {    
+    font-size: 1.5em;
 }
 
 .portrait {
