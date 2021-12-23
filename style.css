@@ -95,6 +95,13 @@ a:hover {
     padding: 0 15px 5px 15px;
 }
 
+.section h4 {
+    padding: 5px 15px 5px 15px;
+}
+.section pre {
+    padding: 0 15px 5px 15px;
+}
+
 .section p {
     padding: 0 15px 0 15px;
     line-height: 1.5;
@@ -109,12 +116,16 @@ a:hover {
 }
 
 .skills-list {
-    padding: 20px 15px 0px;
+    padding: 20px 5px 0px;
 }
 
 .skills-list li {
+    border-bottom: solid 1px rgb(112, 112, 112);
+    border-left: solid 8px rgb(112, 112, 112);
+    padding: 2px 5px 2px;
+    margin-bottom: 10px;
     list-style-type: none;
-    padding-bottom: 10px;
+    
 }
 
 .info:first-child {
@@ -131,3 +142,17 @@ a:hover {
 .education span {
     padding-left: 10px;
 }
+
+.code pre code {
+    font-family: monospace;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    
+    display: block;
+    background: none;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;    
+    max-width: 100%;
+    min-width: 100px;
+    padding: 0;
+  }
