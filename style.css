@@ -8,9 +8,10 @@ main {
     display: flex;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, ul, li {
     padding: 0;
     margin: 0;
+    border: 0;
 }
 
 body {
@@ -51,6 +52,7 @@ a:hover {
 
 .position {
     font-size: 1.5em;
+    padding-bottom: 10px;
 }
 
 .contacts {
@@ -78,4 +80,36 @@ a:hover {
 
 .info {
     margin: 15px;
+}
+
+.section {
+    padding: 15px;
+    margin: 0 0px 15px 15px;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+}
+
+.section h3 {
+    border-bottom: solid 0.1rem rgb(112, 112, 112);
+}
+
+.skills-lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skills-list {
+    padding: 20px 15px 0px;
+}
+
+.skills-list li {
+    padding-bottom: 10px;
+}
+
+.info:first-child {
+    margin-top: 0;
+    padding-top: 0;
 }
