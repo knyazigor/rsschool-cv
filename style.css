@@ -121,3 +121,13 @@ a:hover {
     margin-top: 0;
     padding-top: 0;
 }
+.education h4 {
+    padding: 5px 15px 0px;
+}
+.education div {
+    padding: 5px 2rem 0px;
+}
+
+.education span {
+    padding-left: 10px;
+}
