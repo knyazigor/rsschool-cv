@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
 * {
-    font-family: 'Roboto', 'Verdsns', sans-serif;
+    font-family: 'Roboto', 'Verdana', sans-serif;
 }
 
 
@@ -35,6 +35,9 @@ a:hover {
     padding: 5px 15px;
     margin: 0;
     
+}
+.contacts {
+    padding-left: 15px;
 }
 
 .contact {
