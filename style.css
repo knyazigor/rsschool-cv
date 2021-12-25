@@ -107,6 +107,15 @@ a:hover {
     line-height: 1.5;
 }
 
+
+.section div {
+    padding: 5px 2rem 0px;
+}
+
+.section span {
+    padding-left: 10px;
+}
+
 .skills-lists {
     display: flex;
     flex-direction: row;
@@ -132,16 +141,7 @@ a:hover {
     margin-top: 0;
     padding-top: 0;
 }
-.education h4 {
-    padding: 5px 15px 0px;
-}
-.education div {
-    padding: 5px 2rem 0px;
-}
 
-.education span {
-    padding-left: 10px;
-}
 
 .code pre code {
     font-family: monospace;
