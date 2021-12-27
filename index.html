@@ -101,15 +101,13 @@
                 <h4>Solution</h4>
                 <pre><code>function rgb(r, g, b){  
     return [r, g, b]
-    .map(el => el < 0
+    .map(el => el &lt; 0
         ? '00' : el > 255 
         ? 'FF' : el.toString(16).length > 1 
         ? el.toString(16).toUpperCase() : '0' 
         + el.toString(16)
             .toUpperCase())
-            .join('')  
-}
-                </code></pre>
+            .join('')}</code></pre>
             </section>
         </div>
     </main>
