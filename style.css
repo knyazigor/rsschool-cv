@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Roboto', 'Verdana', sans-serif;
+    box-sizing: border-box;
 }
 
 main {
@@ -40,7 +41,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 2rem;    
-    padding: 0 15px;
+    padding: 0 15px;    
 }
 
 .navbar ul {
@@ -168,24 +169,31 @@ a:hover {
 }
 
 
-.section div {
+.education div {
     padding: 5px 2rem 0px;
 }
 
-.section span {
-    padding-left: 10px;
+.education span {
+    margin-left: 1rem;
 }
+
+.experience div {
+    padding: 5px 2rem 0px;
+}
+
+
 
 .skills-lists {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 15px 15px;
 }
 
 .skills-list {
-    padding: 20px 5px 0px;
+    margin: 0 5px;
 }
 
 .skills-list li {
