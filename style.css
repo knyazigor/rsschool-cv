@@ -34,6 +34,30 @@ a:hover {
     color:rgb(238, 238, 238)
 }
 
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;    
+    padding: 0 15px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar li {    
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+}
+
+
+
 .sub-header {
     display: flex;
     flex-direction: row;
