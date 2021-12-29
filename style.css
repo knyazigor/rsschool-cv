@@ -97,6 +97,7 @@ a:hover {
 
 .contact {
     padding: 5px 15px;
+    list-style-type: none;
 }
 
 .contact i {
