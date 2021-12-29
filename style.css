@@ -246,6 +246,42 @@ a:hover {
   }
 
 
+  .projects {
+      background-color: inherit;
+      
+  }
+
+  .projects-wrapper {
+      display: flex;
+      flex-flow: row wrap;
+  }
+  .project-card {      
+      padding: 15px;
+      border-radius: 15px;
+      margin-top: 5px;
+      border: solid 3px rgb(12, 12, 12);
+  }
+
+  .project-card:hover {
+    border: solid 3px rgb(112, 112, 112);
+  }
+
+  .project-card img {
+      border-radius: 15px;      
+  }
+
+  .project-card-footer {
+      text-align: center;
+      padding-top: 15px;
+  }
+
+  .project-card-comming-soon {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      color:rgb(63, 63, 63)
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
