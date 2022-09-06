@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Igor Shaymukhametov -- CV</title>
+</head>
+<body>
+    <header>        
+        <h1 class="name">Igor Shaymukhametov</h1>
+        <div class="sub-header">
+            <h2 class="main-position">Frontend developer</h2>            
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>        
+        <aside class="sidebar">
+            <img class="portrait" src="./portrait.jpeg" alt="me">
+            
+            <article class="contacts">
+                <h3>Contacts</h3>
+                <ul>
+                    <li class="contact"><i class="fas fa-map-marker-alt"></i><a href="geo:54.739517,55.966280" >Ufa, Russia</a></li>                
+                    <li class="contact"><i class="fas fa-phone-alt"></i><a href="tel:+79173452972">+7(917)345-29-72</a></li>
+                    <li class="contact"><i class="fab fa-telegram"></i><a href="https://t.me/knyazigor" target="_blank">@knyazigor</a></li>
+                    <li class="contact"><i class="fas fa-envelope"></i><a href="mailto:shaym@yandex.ru">shaym@yandex.ru</a></li>
+                    <li class="contact"><i class="fab fa-github"></i><a href="https://github.com/knyazigor" target="_blank">@knyazigor</a></li>
+                </ul>
+            </article>
+            <div class="english">
+                <div class="english-header">English</div>
+                <div class="english-level">A2</div>
+                <div class="english-footer">level</div>
+            </div>
+        </aside>
+        <div class="info">
+            <section class="section bio" id="aboutme">
+                <h2>About me</h2>
+                <p>Frontend developer with little commercial experience but a lot of enthusiasm. I master the necessary business tools in a short time. I enjoy writing code and learning new things.</p>
+                <p>I am <span class="age">37</span> years old. Like to jogging, cycling, swimming. I am married with two children.</p>
+            </section>
+            <section class="section skills" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-lists">
+                    <div class="skills-list languages">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>                    
+                            <li>Python</li>
+                            <li>Bash</li>
+                        </ul>
+                    </div>
+                    <div class="skills-list frameworks">
+                        <ul>
+                            <li>Vue & Vuex</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>                        
+                        </ul>
+                    </div>
+                    <div class="skills-list environment">
+                        <ul>
+                            <li>Linux</li>
+                            <li>Docker</li>
+                            <li>AWS</li>                    
+                            <li>Digital ocean</li>
+                            <li>Firebase</li>                    
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skills-list tools">
+                        <ul>
+                            <li>Git & Github</li>
+                            <li>Figma</li>
+                            <li>Photoshop</li>     
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section education" id="education"><h2>Education</h2>
+                <h4>2021-2022 (excepted)</h4>
+                <div><strong>JS/Front-end</strong><span>Rolling scopes school</span></div>
+                <h4>2005-2009</h4>
+                <div><strong>Engineer</strong><span>Ufa state aviation techincal university, FIR</span></div></section>
+            <section class="section experience" id="experience"><h2>Experience</h2>
+                <h4>2010-until now</h4>
+                <div class="position">Manager</div>
+                <div class="company">Sentyabr Ltd (ООО "Сентябрь"), metal trading company</div>
+                <p>A wide range of tasks related to customer service, transaction support, logistics. Including tasks related to IT: launch and maintenance of servers, workstations. Development of landing pages.</p>
+                <h4>2005-2010</h4>
+                <div class="position">System administrator</div>
+                <div class="company">Rucom Ltd (ООО "Руком"), IT-outsource company</div>
+                <div class="company">Ufimskiy hleb OJSC (ОАО "Уфимский хлеб"), bread production plant</div>
+                <p>Deployment and support of servers, networks, workstations. User technical support. Development of documentation, user manuals.</p>
+
+            </section>
+            <section class="section code" id="code"><h2>Code example</h2>
+                <h4>Task</h4>
+                <p class="task">Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.</p>
+                <h4>Solution</h4>
+                <pre><code>function rgb(r, g, b){  
+    return [r, g, b]
+    .map(el => el &lt; 0
+        ? '00' : el > 255 
+        ? 'FF' : el.toString(16).length > 1 
+        ? el.toString(16).toUpperCase() : '0' 
+        + el.toString(16)
+            .toUpperCase())
+            .join('')}</code></pre>
+            </section>
+            <section class="section projects" id="projects">
+                <h2>Projects</h2>
+                <div class="projects-wrapper">
+                    <div class="project-card">
+                        <div>
+                            <a href="https://tc.knyaz.xyz" target="_blank">
+                                <img src="./tc-project-screen.png" alt="titanium calculator screen" width="200">
+                            </a>
+                        </div>
+                        <div class="project-card-footer">
+                            <a href="https://tc.knyaz.xyz" target="_blank">Titanium calculator</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card-comming-soon">
+                            Comming soon
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">                
+            <a href="https://github.com/knyazigor" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/knyazigor" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://knyaz.xyz" target="_blank"><i class="fas fa-globe"></i></a>
+        </div>
+        <div class="logo-wrapper">
+            <div>Prepared for</div>
+            <div class="rs-logo">            
+                <a href="https://rs.school/js/"><img width="100" src="https://rs.school/images/rs_school_js.svg" alt="RSS Logo"></a>
+            </div>
+            <div>2021</div>
+        </div>        
+    </footer>
+    <script src="main.js"></script>
+    </body>
+</html>
